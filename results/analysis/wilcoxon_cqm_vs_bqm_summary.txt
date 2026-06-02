@@ -1,0 +1,14 @@
+PAIRED WILCOXON SIGNED-RANK TEST — CQM vs BQM (one-sided: CQM < BQM)
+======================================================================
+  N= 10  pairs= 9  strict CQM=0/9  ties=9  BQM=0  median(CQM-BQM)=+0.0000  p=nan  reject_p005=no
+  N= 20  pairs= 9  strict CQM=5/9  ties=4  BQM=0  median(CQM-BQM)=-0.0025  p=3.1250e-02  reject_p005=YES
+  N= 30  pairs= 9  strict CQM=9/9  ties=0  BQM=0  median(CQM-BQM)=-0.0378  p=1.9531e-03  reject_p005=YES
+  N= 50  pairs= 9  strict CQM=9/9  ties=0  BQM=0  median(CQM-BQM)=-0.1237  p=1.9531e-03  reject_p005=YES
+  N= 80  pairs= 9  strict CQM=9/9  ties=0  BQM=0  median(CQM-BQM)=-0.3477  p=1.9531e-03  reject_p005=YES
+  N=120  pairs= 9  strict CQM=9/9  ties=0  BQM=0  median(CQM-BQM)=-0.6184  p=1.9531e-03  reject_p005=YES
+  N=200  pairs= 9  strict CQM=9/9  ties=0  BQM=0  median(CQM-BQM)=-1.2675  p=1.9531e-03  reject_p005=YES
+  N=400  pairs= 9  strict CQM=9/9  ties=0  BQM=0  median(CQM-BQM)=-2.8124  p=1.9531e-03  reject_p005=YES
+  N=640  pairs= 9  strict CQM=9/9  ties=0  BQM=0  median(CQM-BQM)=-5.2294  p=1.9531e-03  reject_p005=YES
+
+Rejects H_0 (CQM ≥ BQM) at p<0.05 at N values: [20, 30, 50, 80, 120, 200, 400, 640]
+Does NOT reject at:                            [10]

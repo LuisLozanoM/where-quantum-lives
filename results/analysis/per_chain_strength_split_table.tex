@@ -1,0 +1,37 @@
+\begin{table}[ht]
+\centering
+\caption{Direct-QPU chain-break fraction split by chain strength $J_c$
+(mean $\pm$ sample std over density families, seeds, and topologies).
+At $J_c \leq 1.0$ the chain strength sits at or below the penalty
+magnitude $|J_{\max}| = A = 4.0$, so chain breaks are guaranteed by
+construction; only $J_c = 2.0$ is plausibly in a working regime, and
+even $J_c = 2.0$ is below the rule-of-thumb $1.5\,|J_{\max}| = 6.0$.
+This per-strength split replaces the chain-strength-averaged
+Table~\ref{tab:a1_cbf}.}
+\label{tab:cbf_per_strength}
+\begin{tabular}{rrrrr}
+\toprule
+$N$ & $J_c$ & runs & CBF mean $\pm$ std & Phys.\ overhead \\
+\midrule
+10 & $0.5$ & 18 & $0.550 \pm 0.051$ & $1.6\times$ \\
+10 & $1.0$ & 18 & $0.550 \pm 0.051$ & $1.6\times$ \\
+10 & $2.0$ & 18 & $0.530 \pm 0.073$ & $1.6\times$ \\
+\addlinespace
+20 & $0.5$ & 18 & $0.785 \pm 0.014$ & $2.5\times$ \\
+20 & $1.0$ & 18 & $0.768 \pm 0.006$ & $2.5\times$ \\
+20 & $2.0$ & 18 & $0.713 \pm 0.023$ & $2.5\times$ \\
+\addlinespace
+30 & $0.5$ & 18 & $0.828 \pm 0.012$ & $3.6\times$ \\
+30 & $1.0$ & 18 & $0.822 \pm 0.013$ & $3.6\times$ \\
+30 & $2.0$ & 18 & $0.810 \pm 0.024$ & $3.6\times$ \\
+\addlinespace
+50 & $0.5$ & 18 & $0.905 \pm 0.018$ & $6.0\times$ \\
+50 & $1.0$ & 18 & $0.895 \pm 0.024$ & $6.0\times$ \\
+50 & $2.0$ & 18 & $0.882 \pm 0.022$ & $6.0\times$ \\
+\addlinespace
+80 & $0.5$ & 18 & $0.955 \pm 0.002$ & $9.4\times$ \\
+80 & $1.0$ & 18 & $0.934 \pm 0.011$ & $9.4\times$ \\
+80 & $2.0$ & 18 & $0.922 \pm 0.011$ & $9.4\times$ \\
+\bottomrule
+\end{tabular}
+\end{table}

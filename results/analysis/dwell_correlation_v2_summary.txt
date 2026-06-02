@@ -1,0 +1,35 @@
+DWELL-VS-QUALITY CORRELATION (v2)
+============================================================
+
+(A) WITHIN-CELL — service-internal randomness
+    cells analysed: 16 (only BQM cells with variance qualify)
+      CQM: 5  BQM: 11
+      [hybrid_bqm] N= 50 fam=block  B=   5s n=10 ρ=-0.250 CI=[-0.86,+0.49]
+      [hybrid_bqm] N= 50 fam=block  B= 300s n=10 ρ=+0.018 CI=[-0.75,+0.69]
+      [hybrid_bqm] N= 50 fam=dense  B=   5s n=10 ρ=-0.055 CI=[-0.69,+0.62]
+      [hybrid_bqm] N=100 fam=block  B=   5s n=10 ρ=-0.782 CI=[-1.00,-0.17]
+      [hybrid_bqm] N=100 fam=block  B= 300s n=10 ρ=-0.212 CI=[-0.70,+0.56]
+      [hybrid_bqm] N=100 fam=dense  B=   5s n=10 ρ=+0.200 CI=[-0.52,+0.81]
+      [hybrid_bqm] N=100 fam=dense  B= 300s n=10 ρ=-0.273 CI=[-0.81,+0.52]
+      [hybrid_bqm] N=200 fam=block  B=   5s n=10 ρ=+0.297 CI=[-0.37,+0.83]
+      [hybrid_bqm] N=200 fam=block  B= 300s n=10 ρ=-0.164 CI=[-0.84,+0.56]
+      [hybrid_bqm] N=200 fam=dense  B=   5s n=10 ρ=+0.806 CI=[+0.16,+1.00]
+      [hybrid_bqm] N=200 fam=dense  B= 300s n=10 ρ=-0.503 CI=[-0.96,+0.18]
+
+(B) CROSS-CELL at fixed (solver, N) — hardness allocation
+    buckets analysed: 8
+      [b2_budget_sweep     ] hybrid_bqm N= 50 cells=10 ρ=-0.309 CI=[-0.90,+0.37]
+      [b2_budget_sweep     ] hybrid_bqm N=100 cells=10 ρ=-0.097 CI=[-0.79,+0.55]
+      [b2_budget_sweep     ] hybrid_bqm N=200 cells=10 ρ=-0.321 CI=[-0.90,+0.43]
+      [b2_budget_sweep     ] hybrid_bqm N=400 cells= 8 ρ=-0.881 CI=[-1.00,-0.32]
+      [b2_budget_sweep     ] hybrid_cqm N= 50 cells=10 ρ=-0.935 CI=[-1.00,-0.73]
+      [b2_budget_sweep     ] hybrid_cqm N=100 cells=10 ρ=-0.557 CI=[-0.99,+0.33]
+      [b2_budget_sweep     ] hybrid_cqm N=200 cells=10 ρ=-0.210 CI=[-0.81,+0.54]
+      [b2_budget_sweep     ] hybrid_cqm N=400 cells=10 ρ=+0.104 CI=[-0.61,+0.75]
+
+VERDICT
+  cross-cell significant NEGATIVE Spearman (more QPU ↔ better obj):  2 buckets
+  cross-cell significant POSITIVE Spearman (more QPU ↔ worse obj):  0 buckets
+  cross-cell consistent with zero:                                  6 buckets
+  within-cell BQM significant NEGATIVE:  1 cells
+  within-cell BQM significant POSITIVE:  1 cells

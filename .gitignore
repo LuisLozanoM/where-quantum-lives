@@ -1,0 +1,61 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+.env
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Mypy / type-check caches
+.mypy_cache/
+.pyright/
+
+# D-Wave / Ocean
+dwave.conf
+*.dwave-config
+
+# Manuscript working tree — code repo only
+manuscript/
+drafts/
+
+# Scratch / planning notes — not part of the reproducibility artifact
+PLAN.md
+AGENTS.md
+EXECPLAN.md
+EXPERIMENT_LOG.md
+TODO.md
+NOTES.md
+
+# Large derived artifacts — keep raw inputs + scripts, regenerate the rest
+results/analysis/daily_pnl/
+results/qpu/
+results/hybrid/
+results/classical/
+results/plot_data/
+
+# Allow the post-hoc summary CSVs that are small and useful for browsing
+!results/analysis/*.csv
+!results/analysis/*.txt
+!results/analysis/*.json
+!results/analysis/*.tex
+
+# Editor / OS artifacts
+*.swp
+.idea/
+.vscode/
+*~

@@ -1,0 +1,8 @@
+{
+  "n_cells_total": 32,
+  "n_cells_with_significant_negative_spearman": 6,
+  "n_cells_with_significant_positive_spearman": 0,
+  "n_cells_consistent_with_zero": 26,
+  "median_spearman_rho": -0.2505241113133585,
+  "median_abs_spearman_rho": 0.280368286360857
+}

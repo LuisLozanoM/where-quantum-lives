@@ -1,0 +1,26 @@
+TABLE 5 DETERMINISM VERIFICATION
+============================================================
+Total cells analysed: 102
+  CQM cells:           52
+    identical:         52
+    non-identical:     0
+  BQM cells:           50
+    identical:         38
+    non-identical:     12
+
+CQM CELLS WHERE THE MANUSCRIPT 'IDENTICAL' CLAIM FAILS:
+  (none — the 'identical' claim holds at every cell)
+
+BQM CELLS — for comparison (manuscript says BQM has variance):
+  [repeated_hybrid   ] N= 50  family=block     budget=   5s  n=10  unique_objs=10  range=6.9730e-02  std=2.1195e-02
+  [repeated_hybrid   ] N= 50  family=block     budget= 300s  n=10  unique_objs=10  range=3.3710e-02  std=1.0965e-02
+  [repeated_hybrid   ] N= 50  family=dense     budget=   5s  n=10  unique_objs=10  range=4.6159e-02  std=1.5934e-02
+  [repeated_hybrid   ] N= 50  family=dense     budget= 300s  n= 4  unique_objs=4  range=2.5754e-02  std=9.5190e-03
+  [repeated_hybrid   ] N=100  family=block     budget=   5s  n=10  unique_objs=10  range=2.6275e-01  std=7.2836e-02
+  [repeated_hybrid   ] N=100  family=block     budget= 300s  n=10  unique_objs=10  range=2.6890e-01  std=7.6889e-02
+  [repeated_hybrid   ] N=100  family=dense     budget=   5s  n=10  unique_objs=10  range=1.2410e-01  std=3.5845e-02
+  [repeated_hybrid   ] N=100  family=dense     budget= 300s  n=10  unique_objs=10  range=2.8035e-01  std=9.7866e-02
+  [repeated_hybrid   ] N=200  family=block     budget=   5s  n=10  unique_objs=10  range=2.4167e-01  std=7.7408e-02
+  [repeated_hybrid   ] N=200  family=block     budget= 300s  n=10  unique_objs=10  range=3.0219e-01  std=1.1208e-01
+  [repeated_hybrid   ] N=200  family=dense     budget=   5s  n=10  unique_objs=10  range=1.9852e-01  std=5.9799e-02
+  [repeated_hybrid   ] N=200  family=dense     budget= 300s  n=10  unique_objs=10  range=1.7434e-01  std=6.2631e-02

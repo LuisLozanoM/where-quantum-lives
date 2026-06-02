@@ -1,0 +1,35 @@
+FF-49 FINANCIAL OVERLAY — PHASE 3
+======================================================================
+QPU portfolios: 90 (5 windows × 3 N × 2 topologies × 3 chain strengths)
+1/N baselines:  5 (one per window)
+DSR n_trials per configuration: 6 (topology × chain strength)
+
+WINDOW × N CELL MEANS (over 6 QPU configurations):
+  win    N    Sharpe     MaxDD     PSR     DSR
+    0   10    +1.289   -0.0420   0.652   0.499
+    0   20    +0.060   -0.0270   0.506   0.355
+    0   30    -0.979   -0.0281   0.384   0.256
+    1   10    +2.052   -0.0213   0.714   0.579
+    1   20    +2.638   -0.0161   0.762   0.648
+    1   30    +2.193   -0.0142   0.742   0.604
+    2   10    +0.715   -0.0322   0.580   0.435
+    2   20    +2.323   -0.0216   0.742   0.612
+    2   30    +2.066   -0.0223   0.714   0.582
+    3   10    -1.976   -0.0847   0.281   0.169
+    3   20    +0.742   -0.0388   0.572   0.443
+    3   30    +1.355   -0.0458   0.649   0.510
+    4   10    +4.053   -0.0576   0.825   0.734
+    4   20    +5.331   -0.0322   0.887   0.816
+    4   30    +7.292   -0.0160   0.953   0.917
+
+1/N BASELINE (49 equal-weight, same windows):
+  win=0  Sharpe=-1.212  MaxDD=-0.0245  PSR=0.352
+  win=1  Sharpe=+2.203  MaxDD=-0.0113  PSR=0.742
+  win=2  Sharpe=+2.923  MaxDD=-0.0215  PSR=0.798
+  win=3  Sharpe=+1.851  MaxDD=-0.0425  PSR=0.708
+  win=4  Sharpe=+5.346  MaxDD=-0.0161  PSR=0.916
+
+AVERAGES OVER ALL WINDOWS:
+  QPU-selected portfolios:  mean Sharpe = +1.944
+  1/N baseline:             mean Sharpe = +2.222
+  QPU vs 1/N delta:                       -0.279

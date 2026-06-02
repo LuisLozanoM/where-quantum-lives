@@ -1,0 +1,9 @@
+P&L RECONSTRUCTION — FF-49 OUT-OF-SAMPLE (Phase 3)
+============================================================
+Total portfolios reconstructed: 90
+Skipped (no eval window or unparseable id): 0
+Unique rebalance dates: 5
+
+  N= 10  n_portfolios= 30  mean(daily_return) avg=+0.00084  std(daily_return) avg=0.00999
+  N= 20  n_portfolios= 30  mean(daily_return) avg=+0.00114  std(daily_return) avg=0.00706
+  N= 30  n_portfolios= 30  mean(daily_return) avg=+0.00109  std(daily_return) avg=0.00652
