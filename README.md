@@ -21,8 +21,10 @@ configs/         Solver configuration files
 tests/           Pytest suite (offline + live-QPU markers; live tests
                  gated by marker, skipped without D-Wave credentials)
 data/raw/        Public datasets used in the paper
-                   - equities/ → symlink to paper1's Fama-French 49
-                     industry daily portfolios
+                   - equities/49_Industry_Portfolios_Daily.zip
+                     (Kenneth R. French Data Library, redistributed
+                     in-repo for reproducibility; subject to upstream
+                     attribution terms — see "Licensing" below)
 pyproject.toml   Package metadata and dependencies
 LICENSE          MIT (covers the code in this repository only)
 ```
@@ -37,8 +39,11 @@ experimental results.
 The Fama-French 49 industry daily portfolio data is publicly available
 from the [Kenneth R. French Data
 Library](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/det_49_ind_port.html).
-The copy used by this paper is referenced via symlink to the companion
-penalty-encoding paper (paper 1) repository.
+A copy of the file (`49_Industry_Portfolios_Daily.zip`, ~4.2 MB) is
+redistributed in this repository at `data/raw/equities/` for
+reproducibility convenience; the data remains subject to the upstream
+Kenneth R. French Data Library terms, and re-users should cite the
+upstream provider in addition to this repository.
 
 ## Quick start
 
